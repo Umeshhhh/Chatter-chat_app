@@ -1,6 +1,6 @@
 'use server';
 
-import prisma from "@/db/prisma/db";
+import prisma from "@/db/db";
 
 export default async function findUser({userId}:{userId: string}){
 

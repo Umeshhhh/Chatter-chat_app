@@ -1,6 +1,6 @@
 'use server';
 
-import prisma from "@/db/prisma/db";
+import prisma from "@/db/db";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../api/auth/[...nextauth]/options";
 

@@ -1,6 +1,5 @@
 'use server';
-import prisma from '@/db/prisma/db';
-// import { PrismaClient } from '@prisma/client'
+import prisma from "@/db/db";
 import bcrypt from 'bcrypt';
 
 type inputType = {
