@@ -33,7 +33,7 @@ export const authOptions : NextAuthOptions = {
             }
         })
     ],
-    secret: process.env.NEXTAUTH_SECRET || '$e#r!tubvu&rbvuk$fbvsfukv',
+    secret: process.env.NEXTAUTH_SECRET || 'secret',
     callbacks: {
         async jwt({ token, user }){
             if(user){
